@@ -1,5 +1,6 @@
 import hashlib
 
+file = None
 try:
     file = open("passwords.txt","r")
 except:
